@@ -57,10 +57,6 @@ module Packer
         self.__add_array_of_strings('floppy_files', files)
       end
 
-      def format(format)
-        self.__add_string('format', format)
-      end
-
       def qemu_binary(qemu_binary)
         self.__add_string('qemu_binary', qemu_binary)
       end
